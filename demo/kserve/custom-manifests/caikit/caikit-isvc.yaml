@@ -8,6 +8,7 @@ metadata:
   name: caikit-example-isvc
 spec:
   predictor:
+    runtimeClassName: kata-remote-cc
     serviceAccountName: sa
     model:
       modelFormat:

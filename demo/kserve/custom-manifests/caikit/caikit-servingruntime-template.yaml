@@ -26,6 +26,7 @@ objects:
         - name: RUNTIME_LOCAL_MODELS_DIR
           value: ${RUNTIME_LOCAL_MODELS_DIR}
       image: ${CONTAINER_IMAGE}
+      imagePullPolicy: IfNotPresent
       name: kserve-container
       ports:
       - containerPort: 8085
@@ -51,4 +52,4 @@ parameters:
   value: "8Gi"
 - name: CONTAINER_IMAGE
   description: Container image for the runtime
-  value: quay.io/opendatahub/caikit-tgis-serving:stable
+  value: quay.io/eesposit/caikit-tgis-serving:latest

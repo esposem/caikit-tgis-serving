@@ -28,5 +28,5 @@ spec:
         - name: MINIO_SECRET_KEY
           value: password
       image: quay.io/opendatahub/modelmesh-minio-examples:caikit-flan-t5
-      imagePullPolicy: Always
+      imagePullPolicy: IfNotPresent
       name: minio
