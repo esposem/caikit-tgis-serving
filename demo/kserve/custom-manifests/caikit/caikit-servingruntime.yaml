@@ -8,7 +8,7 @@ spec:
     - name: RUNTIME_LOCAL_MODELS_DIR
       value: /mnt/models
     # Last tested image stable-27c0d61
-    image: quay.io/eesposit/caikit-tgis-serving:latest
+    image: quay.io/eesposit/caikit-tgis-serving
     imagePullPolicy: Always
     name: kserve-container
     ports:

@@ -27,6 +27,6 @@ spec:
           value:  admin
         - name: MINIO_SECRET_KEY
           value: password
-      image: quay.io/opendatahub/modelmesh-minio-examples:caikit-flan-t5
+      image: quay.io/eesposit/minio:stable
       imagePullPolicy: Always
       name: minio
