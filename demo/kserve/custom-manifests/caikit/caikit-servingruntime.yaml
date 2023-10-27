@@ -9,7 +9,7 @@ spec:
       value: /mnt/models
     # Last tested image stable-27c0d61
     image: quay.io/eesposit/caikit-tgis-serving:latest
-    imagePullPolicy: IfNotPresent
+    imagePullPolicy: Always
     name: kserve-container
     ports:
     # Note, KServe only allows a single port, this is the gRPC port. Subject to change in the future

@@ -26,7 +26,7 @@ objects:
         - name: RUNTIME_LOCAL_MODELS_DIR
           value: ${RUNTIME_LOCAL_MODELS_DIR}
       image: ${CONTAINER_IMAGE}
-      imagePullPolicy: IfNotPresent
+      imagePullPolicy: Always
       name: kserve-container
       ports:
       - containerPort: 8085
